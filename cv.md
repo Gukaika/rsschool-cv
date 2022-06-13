@@ -11,7 +11,7 @@
 * __GitHub:__ [gukaika](https://github.com/Gukaika)
 
 ### Summary 
-I'm 37 at the moment. I want to begin my computer career. Since 2021, I have been learning the basics of programming, in particular web development, which I am passionate about. I have experience in team work and customer orientation, which will be helpful to me in getting a new profession as a Frontend developer. My dream is to be part of a larger EPAM team.
+I'm 37 at the moment. I want to begin my computer career. Since 2021, I have been learning the basics of programming, in particular web development, which I am passionate about. I have experience in team work and customer orientation, which will be helpful to me in getting a new profession as a Frontend developer. My dream is to be part of a big team.
 
 ### Skills
 * HTML/CSS
