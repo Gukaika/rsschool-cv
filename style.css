@@ -41,6 +41,9 @@ body {
 footer {
     width: 100%;
     border-top: 2px solid rgb(255, 197, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header {
     display: flex;
