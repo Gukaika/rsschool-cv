@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV BEKTUROVA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body class="container">
+        <header class="header_wrapper">
+            <nav class="navbar">
+                <ul class="navbar_links">
+                    <li><a href="#contact" class="navbar__link">CONTACTS</a></li>
+                    <li><a href="#summary" class="navbar__link">SUMMARY</a></li>
+                    <li><a href="#skills" class="navbar__link">SKILLS</a></li>
+                    <li><a href="#code" class="navbar__link">CODE</a></li>
+                    <li><a href="#experience" class="navbar__link">EXPERIENCE</a></li>
+                    <li><a href="#projects" class="navbar__link">PROJECTS</a></li>
+                    <li><a href="#languages" class="navbar__link">LANGUAGES</a></li>
+                    <li><a href="#education" class="navbar__link">EDUCATION</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="cv-grid">
+                    <div class="my-data">
+                        <img class="img" src="./myphoto.jpg" alt="me photo" width="150">
+                   </div>
+                    <div>
+                        <h1>GULNURA BEKTUROVA</h1>
+                        <br>
+                        <h2>Junior Frontend Developer</h2>
+                    </div>
+                    <div id="contact">
+                        <h3>CONTACTS</h3>
+                        <ul>
+                            <li>Location: <a href="https://tinyurl.com/yycz3enb" target="_blank">Bishkek, Kyrgyzstan</a></li>
+                            <li>Phone: +996 709 008 211</li>
+                            <li>Email: gulnura.bekturova@gmail.com</li>
+                            <li>Telegram: <a href="https://t.me/gulnurabekturova" target="_blank">@gulnurabekturova</a></li>
+                            <li>GitHub: <a href="https://github.com/Gukaika">gukaika</a></li>
+                        </ul>
+                    </div>
+                    <div id="summary">
+                        <h3>SUMMARY</h3>
+                        <p>I'm a mature, hardworking 38-year-old woman. I want to start my career in IT. I am passionate about learning web development. I have experience in teamwork and customer focus, what will useful for me to get a new profession  as a Frontend Developer. My dream is to join the big team.</p>
+                    </div>
+                    <div id="skills">
+                        <h3>SKILLS</h3>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript Basic</li>
+                            <li>Responsive / Adaptive layouts</li>
+                            <li>VS Code</li>
+                            <li>Git/GutHub</li>
+                        </ul>
+                    </div>
+                    <div id="experience">
+                        <h3>EXPERIENCE</h3>
+                        <ul>
+                            <li>2022 - Junior Frontend Developer Intern in Digital Academy Bishkek, Kyrgyzstan.
+                            <li>2018 - 2021 Experience in the consulting industry Bishkek, Kyrgyzstan</li>
+                            <li>2005 - 2018 Experience in hotel and restaurant industry France, Kyrgyzstan</li>
+                        </ul>
+                    </div>
+                    <div id="projects">
+                        <h3>PROJECTS</h3>
+                        <ul>
+                            <li><a href="https://gukaika.github.io/rsschool-cv" target="_blank">CV</a></li>
+                            <li><a href="https://gukaika.github.io/Calculator" target="_blank">Simple Calculator</a></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div id="languages">
+                            <h3>LANGUAGES</h3>
+                            <ul>
+                                <li>Kyrgyz: native</li>
+                                <li>Russian: native</li>
+                                <li>French: fluent B2</li>
+                                <li>English: pre-intermediate A2</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="code">
+                        <h3>CODE</h3>  
+                        <pre>
+                            <p>Simple Calculator</p> 
+                            <code>                                
+        const display = document.getElementById("display");
+        function Clear() {
+            display.value = "";
+        }
+        function Calculate() {
+            try{
+            display.value = eval(display.value);
+            }
+            catch(err){
+                alert("invalid");
+            }    
+        }
+        function press(x) {
+            display.value += x;
+        }
+        function del() {
+            display.value = display.value.slice(0, -1);
+        }
+                            </code>
+                        </pre>
+                    </div>
+                    <div id="education-online">
+                        <h3>EDUCATION 2022 on-line:</h3>
+                        <ul>
+                            <li><a href="https://rs.school/" target="_blank">RSSchool - JavaScript Frontend - <em>in progress</em></a></li>
+                            <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">Udemy - JavaScript Web Development Bootcamp - <em>in progress</em></a></li>
+                            <li><a href="https://www.udemy.com/course/javascript_full/" target="_blank">Udemy - JavaScript + React - <em>in progress</em></a></li>
+                        </ul>   
+                        <br>
+                        <br>
+                        <br>
+                        <br>         
+                    </div>
+                    <div id="education">
+                        <h3>EDUCATION:</h3>
+                        <ul>
+                            <li><a href="https://www.instagram.com/p/CUcQibzoPF8/">2021 - Course JavaScript in Neolabs. <em>Bishkek, Kyrgyzstan</em></a></li>
+                            <li><a href="https://www.instagram.com/p/B0DYZGbHjvY/">2019 - Course mini MBA "KRJC" in Kyrgyz-Japanese Human Development Center <em>Bishkek, Kyrgyzstan - Business management</em></a></li>
+                            <li>2011 - University Stendhal Grenoble 3, in Grenoble France - <em>Bachelor of Russian Language and Literature</em></a></li>
+                            <li>2006 - International University of Kyrgyzstan, in Bishkek Kyrgyzstan - <em>Bachelor of Low</em></li>
+                        </ul>   
+                        <br>         
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="https://rs.school/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" height="60" width="70"></a>
+            </div>
+            <div >
+                <p>2022 by <img src="/github-logo.png" alt="GitHub" height="50" ><a id="autor" href="https://github.com/Gukaika"> gukaika</a></p>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
+</body>
+</html>
